@@ -27,8 +27,15 @@ body{
 
 .container .tenor-gif-embed{
     display: flex;
-    /* flex-direction: column; */
-    max-width: 350px ;
+    max-width: 300px ;
+}
+@media screen and (max-width:480px) {
+    .container .tenor-gif-embed{
+        max-width: 200px ;
+    }
+    h1{
+        font-size: 21px;
+    }
 }
 
 .btn{
@@ -46,3 +53,9 @@ body{
     border-radius: 8px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
 }
+/* 
+@media screen and (max-width:480px) {
+    .container .tenor-gif-embed{
+        max-width: 200px ;
+    }
+} */
